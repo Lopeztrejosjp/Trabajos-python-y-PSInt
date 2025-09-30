@@ -1,0 +1,24 @@
+Algoritmo Calificacion
+		Definir c Como Entero
+		Escribir "ingrese un numero del 1 al 5 " 
+		leer c
+		
+		Segun c Hacer
+			1:
+				Escribir "Su numero es el 1, su nota es muy baja "
+			2:
+				Escribir "su numero es el 2, su nota es baja "
+			3:
+				Escribir "Su numero es el 3, su nota es media "
+			4:
+				Escribir "su numeero es el 4, su nota es Buena "
+			5: 
+				escribir "su numero es el 5, su nota es excelente "
+			De Otro Modo:
+				Escribir "eligio un numero de nota inexistente  "
+		Fin Segun
+		
+		
+FinAlgoritmo
+
+

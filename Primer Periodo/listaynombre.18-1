@@ -1,0 +1,12 @@
+Algoritmo listaynombre
+	dimensionar lista(10) 
+	Para x=1 Hasta 4 Con Paso 1 Hacer
+		escribir x 
+		escribir "ingrese el numero, nombre", x
+		leer nombre
+		lista[X] = nombre 
+	Fin Para
+	Para x=1 Hasta 4 Con Paso 1 Hacer
+		escribir x, " ", lista[x] 
+	Fin Para
+FinAlgoritmo

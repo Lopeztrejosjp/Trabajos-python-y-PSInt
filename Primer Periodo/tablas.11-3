@@ -1,0 +1,8 @@
+Algoritmo tablas 
+	escribir "escriba un numero"
+	leer num1
+	escribir "..la tabla del.." num1 "..es.."
+	Para z=1 Hasta 10 Con Paso 1 Hacer
+		escribir num1 "x" z "=" num1*z
+	Fin Para
+FinAlgoritmo

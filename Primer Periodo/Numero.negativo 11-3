@@ -1,0 +1,10 @@
+Algoritmo Numnegativo 
+	definir num como entero 
+	Repetir
+		escribir " escriba un numero" 
+		leer num 
+	Hasta Que num<=-1
+	
+	
+	
+FinAlgoritmo

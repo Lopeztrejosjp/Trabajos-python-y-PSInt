@@ -1,0 +1,12 @@
+Algoritmo  Sumaysuma
+	Repetir
+		escribir "ingrese un numero" 
+		leer num 
+		resultado = resultado + num 
+		escribir "desea agregar otro numero si/no"
+		leer resp
+	Hasta Que resp = "no"
+	escribir "la suma de los numeros es " resultado + 1 
+	
+
+FinAlgoritmo

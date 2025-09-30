@@ -1,0 +1,64 @@
+Funcion sumar
+	escribir "ingrese 2 numeros "
+	leer num1 
+	leer num2
+	escribir "la respuesta es " num1+num2 
+FinProceso
+
+Funcion restar 
+	escribir "ingrese 2 numeros "
+	leer num1
+	leer num2
+	escribir "la respuesta es " num1-num2
+FinProceso
+
+
+Funcion multiplicar
+	Escribir "ingrese 2 numeros "
+	leer num1
+	leer num2
+	Escribir "la respuesta es " num1*num2 
+
+Funcion dividir 
+	escribir "ingrese 2 numeros"
+	leer num1
+	leer num2
+	escribir "la respuesta es " num1/num2 
+	
+
+	
+FinFuncion
+
+
+
+
+
+
+
+
+
+
+Algoritmo calcu
+	escribir "que operacion desea hacer"
+	Escribir "1-suma"
+	escribir "2-resta"
+	escribir "3-multiplicar"
+	escribir "4-dividir"
+	
+	leer opc
+	
+	Segun opc Hacer
+		1:
+			sumar
+		2:
+			restar
+		3:
+			multiplicar
+		4:
+			dividir
+		De Otro Modo:
+			escribir "opcion no valida"
+			salir=verdadero
+	Fin Segun
+Hasta Que salir = verdadero
+FinAlgoritmo

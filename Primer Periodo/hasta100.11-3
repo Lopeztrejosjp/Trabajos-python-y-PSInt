@@ -1,0 +1,11 @@
+Algoritmo hasta100
+	definir num1, sum como entero 
+	Repetir
+		escribir "ingrese su numero"
+		leer num1 
+		sum = sum + numero1
+	Hasta Que sum > 100
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,27 @@
+Algoritmo contra
+	definir contra como caracter
+	definir intentos como entero 
+	intentos = 0
+	Repetir
+		escribir "ingrese su contraseña"
+		leer contra
+		intentos = intentos +1
+		si intentos >= 3 entonces 
+			escribir "limite de intentos"
+		FinSi
+	Hasta Que contra = "1234" o intentos >= 3 
+	si contra = "1234" Entonces
+		escribir "contraseña correcta"
+	FinSi
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+FinAlgoritmo

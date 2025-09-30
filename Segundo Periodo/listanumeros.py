@@ -1,0 +1,11 @@
+numeros = [10, 5, 20, 15, 25]
+print("la lista inicial es ", numeros)
+numeros.append(30)
+print("La lista añadiendo el 30 queda asi ", numeros)
+numeros.remove(5)
+print("La nueva lista eliminando al 5 queda asi ", numeros)
+ultimo_elemento = numeros.pop()
+print("Lista despues de eliminar el ultimo elemento es ", numeros)
+print("El elemento eliminado fue ", ultimo_elemento)
+numeros.sort()
+print("Lista despues de ordenarla es ", numeros)
